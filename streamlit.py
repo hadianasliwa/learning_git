@@ -8,4 +8,3 @@ model.load_model('xgb_model.json')
 
 #Caching the model for faster loading
 @st.cache
-
