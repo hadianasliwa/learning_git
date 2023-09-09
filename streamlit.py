@@ -76,6 +76,7 @@ z = st.number_input('Diamond Height (Z) in mm:', min_value=0.1, max_value=100.0,
 
 def update():
     print('updating...')
+    print('updating v2')
 
 if st.button('Predict Price'):
     price = predict(carat, cut, color, clarity, depth, table, x, y, z)
